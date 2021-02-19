@@ -1,0 +1,73 @@
+@import url('helpers.css');
+@import url('colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    font-family: 'Montserrat'
+}
+
+#cardwrapper {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 15px;
+}
+
+figure {
+    background-color: var(--mediumblue);
+    color: var(--darkblue);
+    position: relative;
+}
+
+figure > img {
+    width: 100%;
+    max-width: 260px;
+}
+
+figcaption {
+    padding: 20px 20px 10px 20px;
+}
+
+h3 {
+    color: var(--lightblue);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+}
+
+button:hover {
+    background-color: var(--dark);
+}
+
+span {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.red { background-color: var(--red) }
+.blue { background-color: var(--blue) }
+.green { background-color: var(--green) }
+.orange { background-color: var(--orange) }
+.yellow { background-color: var(--yellow) }
+
+.new {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: var(--red);
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 8px var(--dark);
+    transform: rotate(-10deg);
+}

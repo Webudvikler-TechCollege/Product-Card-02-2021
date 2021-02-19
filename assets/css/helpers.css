@@ -1,0 +1,14 @@
+.border {
+    border: solid 1px #000;
+}
+
+.normalize {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.disc {
+    display: inline-block;
+    border-radius: 50%;
+}
